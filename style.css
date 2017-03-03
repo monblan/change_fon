@@ -1,0 +1,36 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.kvv-wrapper {
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    background: url(image/cats-q-c-640-480-3.jpg) no-repeat left top;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.kvv-outer-nav {
+    display: inline-block;
+    padding-top: 140px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.kvv-outer-nav a {
+    color: white;
+    font-size: 20px;
+    color: white;
+}
+
+.kvv-outer-nav:hover {
+    opacity: 1;
+}
